@@ -1,7 +1,20 @@
 * {
-  border: solid 1px red;
-  margin: 1px;
-  padding: 3px;
+  box-sizing: border-box;
+  border: solid 2px red;
+  margin: 10px;
+  padding: 5px;
+}
+
+#navbar{
+  text-align: center;
+  /*width: 100%*/
+}
+
+#navbar ul li{
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 /*#grid{
