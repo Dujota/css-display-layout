@@ -43,15 +43,18 @@ header{
 }
 
 #content-grid{
-  display: flex;
+  display:flex;
+  justify-content: left;
+  flex-wrap: wrap;
 }
 
 .image-card  .edit-delete{
+  width: 33%;
   background-color: lightyellow;
 }
 
 .image-card .picture img{
-  
+
 }
 
 footer{
