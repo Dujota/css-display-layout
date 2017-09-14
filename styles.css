@@ -1,0 +1,12 @@
+* {
+  border: solid 1px red;
+  margin: 1px;
+  padding: 3px;
+}
+
+#grid{
+  display: grid;
+  /*grid-template: repeat(3, 20%);*/
+  grid-template-columns: repeat(3, 3fr);
+  grid-template-rows: 1fr 10% 1fr 10%;
+}
