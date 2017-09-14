@@ -42,6 +42,10 @@ header{
   border-bottom: solid orange 2px;
 }
 
+#content-grid{
+  display: flex;
+}
+
 /*#grid{
   display: grid;
   grid-template-columns: repeat(3, 3fr);
