@@ -46,6 +46,14 @@ header{
   display: flex;
 }
 
+.image-card  .edit-delete{
+  background-color: lightyellow;
+}
+
+.image-card .picture img{
+  
+}
+
 footer{
   background-color: black;
 }
