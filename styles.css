@@ -30,6 +30,15 @@
   margin: 0 auto;
 }
 
+#info-banner{
+  background-color: lightblue;
+}
+
+#photo-count{
+  font-weight: bold;
+  border-bottom: solid orange 2px;
+}
+
 /*#grid{
   display: grid;
   grid-template-columns: repeat(3, 3fr);
