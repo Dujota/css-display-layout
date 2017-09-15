@@ -62,8 +62,8 @@ header{
 }
 
 
-.image-card .picture img{
-  padding: 3px 10px;
+.image-card{
+  padding: 10px;
 }
 
 footer{
