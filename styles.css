@@ -9,7 +9,8 @@
   width: 100%;
 }*/
 body{
-  width: 60%;
+  margin: 0 10%;
+  width: 900px;
   /*text-align: center;*/
 }
 header{
@@ -23,7 +24,12 @@ header{
 }
 
 #navbar{
+  border: solid black 1px;
+
   text-align: center;
+  /*display: inline;*/
+  /*flex-direction: row;*/
+  /*justify-content: center;*/
   /*width: 100%*/
 }
 
@@ -34,10 +40,15 @@ header{
   list-style: none;
   display: inline-block;
   margin: 0 auto;
+  flex-wrap: nowrap;
 }
 
 #info-banner h4{
   background-color: lightblue;
+  /*width: 100%;*/
+  /*align-self: center;*/
+  /*display: flex;  */
+  /*flex-direction: row;*/
 }
 
 #photo-count{
@@ -46,11 +57,11 @@ header{
 }
 
 #content-grid{
-  width: 900px;
   padding: 5px 100px;
   display:flex;
   /*justify-content: center;*/
   flex-wrap: wrap;
+  flex-direction: row;
   text-align: center;
 }
 
@@ -61,18 +72,21 @@ header{
   /*float: left;*/
 }
 
-
 .image-card{
   padding: 10px;
 }
 
 footer{
   background-color: black;
+  height: 50px;
+  text-align: center;
+  display: block;
 }
 
 footer h6{
   color: white;
-  text-align: center;
+  padding-top: 20px;
+
 }
 
 /*#grid{
