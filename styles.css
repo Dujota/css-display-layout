@@ -11,7 +11,7 @@
 body{
   margin: 0 10%;
   width: 900px;
-  /*text-align: center;*/
+  text-align: center;
 }
 header{
     background-color: black;
@@ -21,10 +21,11 @@ header{
   color: white;
   padding: 10px;
   text-align: center;
+  display: inline-block;
 }
 
 #navbar{
-  border: solid black 1px;
+  /*border: solid black 1px;*/
 
   text-align: center;
   /*display: inline;*/
@@ -33,9 +34,15 @@ header{
   /*width: 100%*/
 }
 
+#navbar ul{
+  display: inline;
+
+}
+
 #navbar ul li{
   background-color: lightgrey;
   color: white;
+  padding: 10px;
   text-align: center;
   list-style: none;
   display: inline-block;
@@ -43,13 +50,29 @@ header{
   flex-wrap: nowrap;
 }
 
-#info-banner h4{
+
+
+#info-banner{
   background-color: lightblue;
-  /*width: 100%;*/
+  text-align: left;
+  width: 89%;
+  height: 23px;
+}
+
+#info-banner h4{
+  padding: 10px;
+  display: inline-block;
+}
+
+/*#cards{*/
+  /*justify-content: center;*/
+/*}*/
   /*align-self: center;*/
   /*display: flex;  */
   /*flex-direction: row;*/
-}
+/*}*/
+
+
 
 #photo-count{
   font-weight: bold;
@@ -58,6 +81,7 @@ header{
 
 #content-grid{
   padding: 5px 100px;
+  margin: 0 auto;
   display:flex;
   /*justify-content: center;*/
   flex-wrap: wrap;
@@ -72,8 +96,8 @@ header{
   /*float: left;*/
 }
 
-.image-card{
-  padding: 10px;
+.image-card .picture{
+  padding: 4px;
 }
 
 footer{
